@@ -1,0 +1,22 @@
+
+.nav-menu {
+    background-color: rgb(228, 93, 104);
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.nav-icons {
+    display: flex;
+    justify-content: flex-start;
+}
+.logo{
+    text-align: center;
+}
+.logoImg {
+    height: 60px;
+}
+
+.logIn {
+    display: flex;
+    justify-content: flex-end;
+}
