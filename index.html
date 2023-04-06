@@ -9,40 +9,45 @@
     <link rel="stylesheet" href="nav.css">
     <link rel=”icon” href=”favicon.ico” type=”image/x-icon”>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script src="./main.js"></script>
-    <script src="./nav.js"></script>
+
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav >
            <div class="nav-menu">
-            <div class="nav-icons">
+            <div class="nav-leftBar">
               <a href="#">
-                <img src="assets/icons/shop-white.png" alt="Homepage">
+                <img class="navIconsImg" src="assets/icons/shop-white.png" alt="Homepage">
               </a>
               <div class="menuBurger">
-                 <div class="navBurgerMenu">
-                    <img src="assets/icons/hamburger-menu-white.png" alt="Menu">
+                 <div class="navBurgerBtn">
+                    <img class="navIconsImg" src="assets/icons/hamburger-menu-white.png" alt="Menu">
                  </div>
-                  <ul class="menu">
+                <div class="menu ">
+                  <ul class="menuList">
                    <li><a href="#">Для Женщин</a></li>
                    <li><a href="#">Для Мужчин</a></li>
                    <li><a href="#">О нас</a></li>
                    <li><a href="#">Контакты</a></li>
                   </ul>
-                 </div>
+                </div>
+              </div>
             </div>
             <div class="logo">
                 <a href="#">
-                    <img class="logoImg" src="./assets/img/logo.png" alt="Cats & Clothes. Cutiest shop ever!">
+                    <img class="navIconsImg" src="./assets/img/logo.png" alt="Cats & Clothes. Cutiest shop ever!">
                 </a>
             </div>
             <div class="logIn">
-                <img src="./assets/icons/user-white.png" alt="Log In">
+                <img class="navIconsImg" src="./assets/icons/user-white.png" alt="Log In">
             </div>
            </div>
            <div class="nav-search">
+            <form class="search-input">
+                <input class="search-field" type="search" name="text" required placeholder="Поиск по сайту">
+                <img class="search-icon" src="./assets/icons/search.png" alt="search icon">
+              </form>
 
            </div>
            <div></div>
@@ -50,5 +55,7 @@
     </header>
     <main></main>
     <footer></footer>
+    <script src="./main.js"></script>
+    <script src="./nav.js"></script>
 </body>
 </html>

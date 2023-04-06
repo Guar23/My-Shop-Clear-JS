@@ -11,9 +11,11 @@
 }
 
 body {
-    background-color: rgb(255, 166, 173);
+    background-color: rgb(255, 237, 239);
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    text-align: center;
 }
 
 * {
