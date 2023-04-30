@@ -1,3 +1,4 @@
+@import 'style.css';
 
 .nav-menu {
     background-color: rgb(235, 55, 85); 
@@ -27,17 +28,18 @@
 	display: block;
 }
 .menuList {
-    display: flex;
+    display: grid;
     height: 60px;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
 	list-style-type: none;
+
 }
 .menuList a {
     text-decoration: none;
     color: rgb(255, 230, 239);
     font-size: 20px;
+  
 }
 .logIn {
     display: flex;
