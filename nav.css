@@ -1,22 +1,70 @@
+@import 'style.css';
 
 .nav-menu {
-    background-color: rgb(228, 93, 104);
+    background-color: rgb(235, 55, 85); 
     height: 60px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    padding: 15px 30px 0px;
 }
-.nav-icons {
+.nav-leftBar {
     display: flex;
     justify-content: flex-start;
 }
-.logo{
-    text-align: center;
+.navIconsImg {
+    height: 40px;
+    padding-right: 20px;
 }
-.logoImg {
+.menu {
+    display: none;
+    
+	position: fixed;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 166, 173);
+}
+.menu.active {
+	display: block;
+}
+.menuList {
+    display: grid;
     height: 60px;
-}
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+	list-style-type: none;
 
+}
+.menuList a {
+    text-decoration: none;
+    color: rgb(255, 230, 239);
+    font-size: 20px;
+  
+}
 .logIn {
     display: flex;
     justify-content: flex-end;
+}
+.nav-search {
+    height: 60px;
+    background-color: rgb(255, 166, 173);
+}
+.search-input {
+    display: inline-flex;
+    background-color: rgb(255, 237, 239);
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 70%;
+}
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+ 
+}
+.search-field {
+    width: 100%;
+    background-color: rgb(255, 237, 239);
+    outline: none;
 }

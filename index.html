@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,46 +9,66 @@
     <link rel="stylesheet" href="nav.css">
     <link rel=”icon” href=”favicon.ico” type=”image/x-icon”>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script src="./main.js"></script>
-    <script src="./nav.js"></script>
+
 </head>
 
 <body>
     <header>
-        <nav>
-           <div class="nav-menu">
-            <div class="nav-icons">
-              <a href="#">
-                <img src="assets/icons/shop-white.png" alt="Homepage">
-              </a>
-              <div class="menuBurger">
-                 <div class="navBurgerMenu">
-                    <img src="assets/icons/hamburger-menu-white.png" alt="Menu">
-                 </div>
-                  <ul class="menu">
-                   <li><a href="#">Для Женщин</a></li>
-                   <li><a href="#">Для Мужчин</a></li>
-                   <li><a href="#">О нас</a></li>
-                   <li><a href="#">Контакты</a></li>
-                  </ul>
-                 </div>
-            </div>
-            <div class="logo">
-                <a href="#">
-                    <img class="logoImg" src="./assets/img/logo.png" alt="Cats & Clothes. Cutiest shop ever!">
-                </a>
-            </div>
-            <div class="logIn">
-                <img src="./assets/icons/user-white.png" alt="Log In">
-            </div>
-           </div>
-           <div class="nav-search">
-
-           </div>
-           <div></div>
-        </nav>
+        <nav class="navbar"></nav>
+        <div class="hero-section">
+        <div class="content">
+          <img class="navIconsImg" src="./assets/img/logo.png" alt="Cats & Clothes. Cutiest shop ever!">
+          <p class="sub-heading">Интернет магазин одежды для самых модных котиков и кошечек</p>
+      </div>
+      </div>
     </header>
-    <main></main>
+
+    <main>
+      <section class="salesNStock">
+        <h2 class="mainH2">Новинки сезона</h2>
+
+        <div class="sale-container">
+        <button class="pre-btn"><img src="./assets/icons/arrowleftpink.png" alt="previously"></button>
+        <button class="nxt-btn"><img src="./assets/icons/arrowrightpink.png" alt="next"></button>
+
+        <div class="sale-carousel">
+          <div class="sale-card">
+              <div class="sale-image">
+                  <img src="./assets/img/dreamcat4.jpg" class="sale-thumb" alt="">
+                  <button class="card-btn">Подробнее</button>
+              </div>
+            </div>
+
+              <div class="sale-card">
+                <div class="sale-image">
+                    <img src="./assets/img/dreamcat3.jpg" class="sale-thumb" alt="">
+                    <button class="card-btn">Подробнее</button>
+                </div>
+              </div>
+              
+                <div class="sale-card">
+                  <div class="sale-image">
+                      <img src="./assets/img/dreamcat2.jpg" class="sale-thumb" alt="">
+                      <button class="card-btn">Подробнее</button>
+                  </div>
+                </div>
+                 
+
+                  <div class="sale-card">
+                    <div class="sale-image">
+                        <img src="./assets/img/dreamcat.jpg" class="sale-thumb" alt="">
+                        <button class="card-btn">Подробнее</button>
+                    </div>
+                  </div>
+
+           </div>           
+          </div>
+    </section>
+    </main>
+
     <footer></footer>
+
+    <script src="./main.js"></script>
+    <script src="./nav.js"></script>
 </body>
 </html>
