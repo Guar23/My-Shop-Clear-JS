@@ -35,6 +35,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+ 
 }
 
 .hero-section .logo{
@@ -52,34 +53,34 @@ body {
     font-weight: 300;
 }
 .salesNStock{
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-    padding: 20px 0;
-    margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
 .mainH2{
     color: rgb(235, 55, 85);
     font-size: 30px;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-transform: uppercase;
 }
 .sale-container{
-    width: 600px;
-    height:600px;
-    position: relative;
-    overflow: hidden;
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  height: 500px; 
 }
-.sale-carousel{
-    height:600px;
-    display: flex;
-    transition-duration: .5s;
-}
+
+   
+
 .sale-card{
-    flex: 0 0 auto;
     width: 100%;
-    margin-right: 40px;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s;
 }
 
 .sale-image{
@@ -121,33 +122,24 @@ body {
 
 
 .pre-btn, .nxt-btn{
-   background:  linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    background:  none;
     border: none;
-    height: 100%;
     position: absolute;
     top: 0;
+    bottom: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin: auto;
     cursor: pointer;
     z-index: 8;
-    padding: 20px;
 }
 
 .pre-btn{
     left: 0;
-
+    padding-left: 0.25rem;
 }
 
 .nxt-btn{
     right: 0;
-    
-}
-
-.pre-btn img, .nxt-btn img{
-    opacity: 0.2;
-}
-
-.pre-btn:hover img, .nxt-btn:hover img{
-    opacity: 1;
+    padding-left: 0.75rem;
 }
