@@ -1,7 +1,9 @@
-@import 'style.css';
+
 
 .navbar {
 height: 135px;
+position: relative;
+z-index: 1;
 }
 .nav{
     width: 100%;
@@ -31,7 +33,7 @@ height: 135px;
     left: 0;
     width: 100%;
     background: rgb(255, 166, 173);
-    z-index: 2;
+
 }
 .menu.active {
 	display: block;

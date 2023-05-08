@@ -15,7 +15,7 @@ const createNav = () => {
 		      <ul class="menuList">
 		       <li><a href="#">Для Кошечек</a></li>
 		       <li><a href="#">Для Котиков</a></li>
-		       <li><a href="#">Игры</a></li>
+		       <li><a href="./find-a-match/index.html">Игры</a></li>
 		       <li><a href="#">О нас</a></li>
 		      </ul>
 		    </div>
