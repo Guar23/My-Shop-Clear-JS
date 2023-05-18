@@ -7,10 +7,10 @@
     font-weight: 400;
     font-display: swap;
     src:
-         url(./assets/fonts/RF\ Krabuler\ Regular.woff) format('woff'),
-         url(./assets/fonts/RF\ Krabuler\ Regular.woff2) format('woff2'),
-         url(./assets/fonts/RF\ Krabuler\ Regular.ttf) format('truetype'),
-         url(./assets/fonts/RF\ Krabuler\ Regular.eot) format('Embedded OpenType')
+         url(../assets/fonts/RF\ Krabuler\ Regular.woff) format('woff'),
+         url(../assets/fonts/RF\ Krabuler\ Regular.woff2) format('woff2'),
+         url(../assets/fonts/RF\ Krabuler\ Regular.ttf) format('truetype'),
+         url(../assets/fonts/RF\ Krabuler\ Regular.eot) format('Embedded OpenType')
 }
 
 body {
@@ -30,7 +30,7 @@ body {
 .hero-section{
     width: 100%;
     height: calc(50vh - 120px);
-    background-image: url('./assets/img/dreamcat.jpg');
+    background-image: url('../assets/img/dreamcat.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -83,6 +83,7 @@ body {
     height: 100%;
     position: absolute;
     transition: all 0.5s;
+    z-index: -1;
 }
 
 .sale-image{
@@ -133,7 +134,7 @@ body {
     align-items: center;
     margin: auto;
     cursor: pointer;
-    z-index: 8;
+    z-index: 0;
 }
 
 .pre-btn{
